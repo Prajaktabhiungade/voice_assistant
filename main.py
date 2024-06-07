@@ -241,7 +241,7 @@ def execute_command():
             speak("Thanks for giving me your time")
             exit()
 
-class VoiceAssistantGUI:
+'''class VoiceAssistantGUI:
     def _init_(self, root):
         self.root = root
         self.root.title("Voice Assistant")
@@ -259,9 +259,11 @@ class VoiceAssistantGUI:
         self.text.insert(END, "Assistant started...\n")
         wishMe()
         while True:
-            execute_command()
+            execute_command()'''
 
 if __name__ == "__main__":
-    root = Tk()
-    gui = VoiceAssistantGUI(root)
-    root.mainloop()
+     wishMe()
+     #takeCommand()
+     execute_command()
+     exit_voice_assistant()
+    
